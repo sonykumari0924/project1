@@ -49,8 +49,13 @@ fatal: Could not read from remote repository.
 <p>Verify your current branch:</p>
 <pre><code>git branch</code></pre>
 
-<h2>Step 10: Push Code to GitHub</h2>
-<p>Finally, push your code:</p>
-<pre><code>git push origin main</code></pre>
+<h2>Step 10: Push Code to GitHub (First Time)</h2>
+<p>Use this command for the first push:</p>
+<pre><code>git push -u origin main</code></pre>
+<p>This sets the upstream branch, so next time you can simply use <code>git push</code>.</p>
+
+<h2>Step 11: Future Pushes</h2>
+<p>After setting upstream, you only need:</p>
+<pre><code>git push</code></pre>
 </body>
 </html>
